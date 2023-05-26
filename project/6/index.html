@@ -12,8 +12,9 @@
 
     <body>
         <h1>Hello-Bootstrap</h1>
-        <button class="btn btn-dark m-2" onclick="New_page().location.href='../5/'">New Page</button> <br>
-        <button class="btn btn-info m-2" onclick="Yo()" id="page">Click Me To go to New Page</button>
+        <button class="btn btn-dark m-2" onclick="New_page().location.href='../5/'">Click Me To go to New Page</button>
+        <br>
+        <button class="btn btn-info m-2" onclick="Yo()" id="page">New Page</button>
 
         <h1>This Is Going To be link</h1>
 
@@ -22,9 +23,9 @@
                 location.href = "../5/ ";
             }
 
-            function yo() {
+            function Yo() {
                 var a = document.getElementById("page");
-                while (a.innerHTML == "New Page") {
+                if (a.innerHTML == "New Page") {
                     location.href = "../5/";
                 }
             }
