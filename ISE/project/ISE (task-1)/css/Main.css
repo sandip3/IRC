@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav start */
+.nev_main {
+  background: #90953b;
+}
+.nav-item:hover {
+  border-bottom: 3px solid yellow;
+}
+.txt {
+  font-size: x-large;
+}
+/* Nav end */
+
+/* index start */
+.con {
+  width: 100vw;
+  height: 79vh;
+  background: #78853f;
+}
+.home_main {
+  width: 90vw;
+  height: 84.5vh;
+  background: url(../IMG/slider-bg.jpg);
+  background-size: cover;
+  background-attachment: inherit;
+  position: relative;
+  left: 76px;
+  top: 30px;
+}
+.heading_slider {
+  position: absolute;
+  left: 90px;
+  top: 130px;
+  width: 35vw;
+}
+.header_slider {
+  font-size: 50px;
+}
+.slider_sign {
+  width: 3vh;
+  height: 3vh;
+  background: #ffff00;
+  border-radius: 2vh;
+  -webkit-border-radius: 2vh;
+  -moz-border-radius: 2vh;
+  -ms-border-radius: 2vh;
+  -o-border-radius: 2vh;
+}
+.slider_sign_w {
+  width: 3vh;
+  height: 3vh;
+  border: white solid 3px;
+  border-radius: 2vh;
+  -webkit-border-radius: 2vh;
+  -moz-border-radius: 2vh;
+  -ms-border-radius: 2vh;
+  -o-border-radius: 2vh;
+}
+/* index end */
+
+/* About start */
+.about_main {
+  width: 50vw;
+  height: 73vh;
+  background: url(../IMG/about-img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.about_contain {
+  float: right;
+  width: 45vw;
+  height: 73vh;
+}
+.about_contain_main {
+  position: absolute;
+  top: 180px;
+  right: 50px;
+  width: 40vw;
+}
+/* About end */
+
+/* program start */
+.program_main {
+  top: 80px;
+  position: relative;
+}
+.program_main_con {
+  width: 40vw;
+  margin-top: 80px;
+  position: relative;
+}
+.program_main_con_deta {
+  left: 20px;
+  top: 10px;
+  position: relative;
+}
+.program_main_con_para {
+  width: 25vw;
+}
+img {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* program end */
+
+/* Contact start */
+.con_main {
+  background: url(../IMG/contect_bg.jpg);
+  background-size: cover;
+  height: 89vh;
+}
+.contact_main {
+  height: 89vh;
+  width: 100vw;
+}
+.contact_main_form {
+  width: 25vw;
+  height: 75vh;
+  color: #98c1d9;
+  background: #3d5a80;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+input,
+textarea {
+  background: #e0fbfc;
+  color: #293241;
+  padding-left: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 5px;
+  border-style: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 15px;
+}
+textarea {
+  height: 150px;
+}
+.f_style {
+  border-bottom: #7a7b82 solid 2px;
+}
+
+/* Contact end */

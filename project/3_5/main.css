@@ -1,0 +1,34 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #323f4b;
+} */
+.bg-container {
+  font-family: roboto;
+  height: 100vh;
+  background-image: url("IMG/foodbg.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-weight: 500;
+}
+.parabody {
+  background: #f6c56e;
+  width: 100vw;
+  height: 220px;
+  border-radius:20px 20px 0 0;
+  padding: 25px;
+}
+.main-heading {
+  font-family: 'Bree serif';
+  font-size: 35px;
+}
+.peragraph {
+  font-size: 18px;
+}
+.button {
+  background: #fff;
+  width: 130px;
+}

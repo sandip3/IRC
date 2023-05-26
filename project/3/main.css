@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #323f4b;
+}
+.container {
+  height: 100vh;
+  background-image: url("IMG/foodbg.png");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+}
+.card {
+  padding: 25px;
+  justify-content: center;
+  background: #f6c56e;
+  border-radius: 20px 20px 0 0;
+}
+.heading_main {
+  font-family: "Bree serif";
+  padding: 5px;
+}
+.pera {
+  font-family: "Roboto";
+  padding: 5px;
+}
+.button {
+  background: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

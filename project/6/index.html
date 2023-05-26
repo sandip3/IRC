@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Click Event With Js</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Hello-Bootstrap</h1>
+        <button class="btn btn-dark m-2" onclick="New_page().location.href='../5/'">New Page</button> <br>
+        <button class="btn btn-info m-2" onclick="Yo()" id="page">Click Me To go to New Page</button>
+
+        <h1>This Is Going To be link</h1>
+
+        <script>
+            function New_page() {
+                location.href = "../5/ ";
+            }
+
+            function yo() {
+                var a = document.getElementById("page");
+                while (a.innerHTML == "New Page") {
+                    location.href = "../5/";
+                }
+            }
+        </script>
+    </body>
+
+</html>
