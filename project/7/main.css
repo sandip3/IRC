@@ -1,0 +1,24 @@
+.conatiner {
+  display: block;
+  width: 600px;
+  margin: auto;
+}
+
+.str {
+  background: rgb(0, 255, 26);
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.sto {
+  background: yellow;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.res {
+  background: rgb(250, 95, 95);
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Watch</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1>Hello-Bootstrap</h1>
+
+            <div>
+                <p class="p-5 btn btn-dark border-5 " id="time-content"> 00 HOURS : 00 MIN : 00 Sec </p>
+            </div>
+            <div>
+                <button class="btn str" id="str" onclick="Start(true)">START</button>
+                <button class="btn sto" id="sto" onclick="Stop()">STOP</button>
+                <button class="btn res" id="res" onclick="Reset()">RESET</button>
+            </div>
+        </div>
+    </body>
+
+</html>
